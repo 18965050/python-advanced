@@ -32,6 +32,7 @@ def contextmanager(func):
 # Simple Example
 if __name__ == '__main__':
     import time
+    # from contextlib import contextmanager
     @contextmanager
     def timethis():
         start = time.time()
